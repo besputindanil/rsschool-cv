@@ -41,7 +41,7 @@ Learning projects:
  - [Smart Device](https://github.com/besputindanil/smartdevice)
  - [Keksobooking](https://github.com/besputindanil/keksobooking)
 
- ## Education
+## Education
 
 - 2002 - 2007: Volga region cooperative Institute
 - June 2019 - November 2019: HTML Academy
