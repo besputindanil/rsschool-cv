@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Montserrat-Regular.woff2) format("woff2"), url(../fonts/Montserrat-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/Montserrat-Bold.woff2) format("woff2"), url(../fonts/Montserrat-Bold.woff) format("woff");
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a374a;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px 40px;
+
+  background-color: #fb4447;
+}
+
+.page-header__image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+
+  border-radius: 50%;
+}
+
+.page-header__title {
+  margin: 0;
+
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.page-main {
+  padding: 40px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.contacts__list,
+.skills__list,
+.experience__list,
+.education__list {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__link,
+.experience__link {
+  color: #2a374a;
+}
+
+.summary__text,
+.code-examples__text,
+.english__text {
+  margin: 0;
+  padding: 0;
+}
+
+.code-examples__text {
+  margin-left: -90px;
+}
