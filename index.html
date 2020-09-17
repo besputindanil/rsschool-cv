@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculum vitae</title>
-  <link rel="stylesheet" href="css.style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
       <div class="page-header__photo">
         <img class="page-header__image" src="img/photo.png" width="344" height="344" alt="my photo">
       </div>
-      <h2 class="page-header__title title">Danil Besputin</h2>
+      <h2 class="page-header__title">Danil Besputin</h2>
     </header>
     <main class="page-main">
       <section class="contacts">
@@ -53,16 +53,16 @@
         <h2 class="code-exaples__title title">Code Examples</h2>
         <pre class="code-examples__text">
           <code>
-            var createFeature = function (card) {
-              var featureFragment = document.createDocumentFragment();
-              card.offer.features.forEach(function (item) {
-                var featureItem = document.createElement('li');
-                featureItem.className = 'popup__feature popup__feature--' + item;
-                featureFragment.appendChild(featureItem);
-              });
-          
-              return featureFragment;
-            };
+        var createFeature = function (card) {
+          var featureFragment = document.createDocumentFragment();
+          card.offer.features.forEach(function (item) {
+            var featureItem = document.createElement('li');
+            featureItem.className = 'popup__feature popup__feature--' + item;
+            featureFragment.appendChild(featureItem);
+          });
+      
+          return featureFragment;
+        };
           </code>
         </pre>
       </section>
