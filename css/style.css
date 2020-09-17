@@ -75,3 +75,46 @@ a {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.page-main {
+  padding: 40px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.contacts__list,
+.skills__list,
+.experience__list,
+.education__list {
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__link,
+.experience__link {
+  color: #2a374a;
+}
+
+.summary__text,
+.code-examples__text,
+.english__text {
+  margin: 0;
+  padding: 0;
+}
+
+.code-examples__text {
+  margin-left: -90px;
+}
